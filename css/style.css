@@ -178,6 +178,10 @@ line-height:2em;
 color:#818181;
 font-size:14px;
 }
+.laptop-grid-right p span,.laptop-bot-grid-right p span{
+background:#71c13f;
+color:#fff;
+}
 /*-- //laptop --*/
 /*-- perfect --*/
 .perfect{
