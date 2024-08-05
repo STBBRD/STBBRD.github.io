@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+	<style type="text/css">
+		*{color:white;
+		background-color: #00dd00;
+		font-family: "微软雅黑"
+		}		
+		del{color:gray;
+		}
+		u{
+			color: gray;
+			margin: 0 30px
+		}
+	</style>
+<meta charset="utf-8">
+<title>检查更新</title>
+</head>
+
+<body>
+	<h1>更新检查</h1>
+	<h2>最新版本：4.1&nbsp;<u>发布于2022/4/27</u></h2>
+	<h3>提示：请注意先卸载旧版本再更新！</h3>
+</body>
+</html>

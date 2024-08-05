@@ -1,185 +1,173 @@
 <!DOCTYPE html>
 <html>
-<head>
-<meta http-equiv="Expires" content="0">
-<meta http-equiv="Pragma" content="no-cache">
-<meta http-equiv="Cache-control" content="no-cache">
-<meta http-equiv="Cache" content="no-cache">
-<title>Minecraft 粽子科技</title>
-<!-- for-mobile-apps -->
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<!-- //for-mobile-apps -->
-<link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
-<link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
-<!-- js -->
-<script src="js/jquery-1.11.1.min.js"></script>
-<!-- //js -->
-	<!-- start-smoth-scrolling -->
-	<script type="text/javascript" src="js/move-top.js"></script>
-	<script type="text/javascript" src="js/easing.js"></script>
-	<script type="text/javascript">
-		jQuery(document).ready(function($) {
-			$(".scroll").click(function(event){		
-				event.preventDefault();
-				$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
-			});
-		});
-	</script>
-	<!-- start-smoth-scrolling -->
-<link rel="shortcut icon" href="/favicon.ico" />
-</head>	
-<body>
-<!-- banner -->
-<div class="banner">
-	<div class="container">
-		<div class="banner-left">
-			<div class="logo">
-	         <img src="images/logo.png" style="width: 100%; margin: 5px;" /></div>			
-			<div class="banner-info">					
-			  <p>这是一款即装即用，自带Forge的Minecraft Java 客户端</p>
-					<a href="#download">现在下载</a>
-			</div>
-		</div>
-		<div class="clearfix"></div>
-	</div>
-</div>
-<!-- //banner -->
-<!-- laptop -->
-<div class="laptop" id="download">
-	<div class="container">
-		<div class="laptop-grids">
-			<div class="col-md-6 laptop-grid">
-				<div style="background-color: #71c13f; margin: 20px;width: 65%;height: 4em;"><a style="font-size: 1.8em; color: white; position: absolute;margin: 0.44em;" href="https://go.microsoft.com/fwlink/?linkid=2088631">下载 .NET Framework 4.8</a></div>
-				<div style="background-color: #71c13f; margin: 20px;width: 55%;height: 4em;"><a style="font-size: 1.8em; color: white; position: absolute;margin: 0.44em;" href="https://cloud.zztek.top/api/raw/?path=/ZongziTEK_MC_4.1_Setup.exe">下载Minecraft</a></div>
-				<div style="background-color: #71c13f; margin: 20px;width: 45%;height: 4em;"><a style="font-size: 1.8em; color: white; position: absolute;margin: 0.44em;" href="https://www.123pan.com/s/lpzRVv-qvwsd">备用网盘下载</a></div>
-				<div style="background-color: #71c13f; margin: 20px;width: 35%;height: 4em;"><a style="font-size: 1.8em; color: white; position: absolute;margin: 0.44em;" href="https://download.oracle.com/java/17/latest/jdk-17_windows-x64_bin.exe">下载JDK17</a></div>
-			</div>
-			<div class="col-md-6 laptop-grid-right">
-				<h3>这里有必要文件的 <span>下载方式</span>.</h3>
-				<p>目前最新版本：4.1<br/>更新前务必卸载旧版本<br/>特别感谢@龙腾猫跃提供的PCL2<br/>需要下载.NET Framework4.8, JDK17和Minecraft<br/>32位电脑不建议下载</p>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- //laptop -->
-<!-- laptop-bottom -->
-<div class="laptop-bottom" id="contact">
-	<div class="container">
-		<div class="laptop-bottom-grids">
-			<div class="col-md-6 laptop-bot-grid-right">
-				<h3>所有的 <span>联系方式</span>都在这里了</h3>
-				<p>整合包群: 1065932074</p>
-				<p>粽子科技服务器群：293535348</p>
-				<p>YoMC 服务器群：484012600</p>
-				<p>天空科技服务器群：173234470</p>
-			</div>
-			<div class="col-md-6 laptop-bottom-grid">
-				<img style="width: 40%; float: right; margin-right: 10%;" src="images/Birch_Standing.png" />
-			</div>
-			
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- //laptop-bottom -->
-<!-- perfect -->
-<div class="perfect text-center">
-	<div class="container">
-		<h3 title="(●'◡'●)">"What's your problem? "</h3>
-			<div class="perfect-buttons">
-				<a href="#help" class="bor">解决常见的问题</a>
-			</div>
-	</div>
-</div>
-<!-- //perfect -->
-<!-- banner-bottom -->
-<div class="banner-bottom" id="help">
-	<div class="container">
-		<div class="bottom-grids">
-			<div class="col-md-6 bottom-grid">
-				<div class="bottom-left">
-					<img src="images/heart.png">
-				</div>
-				<div class="bottom-right">
-					<h3>进不了服务器，闪退?</h3>
-					<p>打开启动器的Java设置，把分配的内存调整到2G或以上</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="col-md-6 bottom-grid">
-				<div class="bottom-left">
-					<img src="images/nav.png">
-				</div>
-				<div class="bottom-right">
-					<h3>PCL如何进行个性化设置?</h3>
-					<p>在启动器中按下F12</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="col-md-6 bottom-grid">
-				<div class="bottom-left">
-					<img src="images/people.png">
-				</div>
-				<div class="bottom-right">
-					<h3>不能进入 <a href="http://skyscience.top/">天空科技服务器</a> ?</h3>
-					<p>天空科技服务器采用白名单式的登录方式，请加天空科技群按照提示申请白名单</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="col-md-6 bottom-grid">
-				<div class="bottom-left">
-					<img src="images/search.png">
-				</div>
-				<div class="bottom-right">
-					<h3>我的存档在哪里?</h3>
-					<p>开始菜单→粽子科技我的世界→管理游戏文件，打开它，就可以找到了</p>
-				</div>
-				<div class="clearfix"></div>
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- //banner-bottom -->
-<!-- pricing-top -->
-<div class="pricing-top">
-	<div class="container">
-		<p style="text-align: center; color: lightgray;font-size: 5vw;"><span style="font-size: 9vw;">“</span>确定不要试试吗?<span style="font-size: 7vw;">”</span></p>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>
-<!-- //pricing-top -->
-<!-- footer-top -->
-<!--<div class="footer-top">
-	<div class="container">
-		<div class="footer-grids">
-			<div class="col-md-6 footer-grid">
-				<a href="index.html">支持我</a>
-				<p>即使你不知道这样做有什么意义，你也可以试着扫描旁边的二维码，你的举动可能会给一个人无穷的动力，所以即使你不知道这样做有什么意义，你也可以试着扫描旁边的二维码，你的举动可能会给一个人无穷的动力，所以即使你不知道这样做有什么意义，你也可以试着扫描旁边的二维码，你的举动可能会给一个人无穷的动力，所以即使你不知道这样做有什么意义，你也可以试着扫描旁边的二维码，你的举动可能会给一个人无穷的动力，所以... (/ω•＼*)</p>
-			</div>
-			<div class="col-md-6 footer-grid">
-				<img style="width: 100%;" src="images/ZSM.png" />
-			</div>
-			<div class="clearfix"></div>
-		</div>
-	</div>
-</div>-->
-<!-- //footer-top -->
-<!-- footer -->
-<div class="footer">
-	<!--<div><img src="images/nametag.png" style="width: 30%; margin: 0px 50px; float: right; " /></div>-->
-	<div class="container">
-		<p><br/>Created by <a href="https://jump.biuproject.pro/jump_tek.php" title="mail: keyword233@gmail.com or guan_jian_zi@163.com || website: blog.biuproject.pro/i">keyword233</a> , static resources provided by biu!project API.</p>
-		</div>
-</div>
-<!-- //footer -->
-<!-- here stars scrolling icon -->
-	<script type="text/javascript">
-									$(document).ready(function() {
-										/*
+  <head>
+    <meta http-equiv="Expires" content="0" />
+    <meta http-equiv="Pragma" content="no-cache" />
+    <meta http-equiv="Cache-control" content="no-cache" />
+    <meta http-equiv="Cache" content="no-cache" />
+    <title>ZongziTEK 黑板贴</title>
+    <!-- for-mobile-apps -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <!-- //for-mobile-apps -->
+    <link
+      href="css/bootstrap.css"
+      rel="stylesheet"
+      type="text/css"
+      media="all"
+    />
+    <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
+    <!-- js -->
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <!-- //js -->
+    <!-- start-smoth-scrolling -->
+    <script type="text/javascript" src="js/move-top.js"></script>
+    <script type="text/javascript" src="js/easing.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function ($) {
+        $(".scroll").click(function (event) {
+          event.preventDefault();
+          $("html,body").animate(
+            { scrollTop: $(this.hash).offset().top },
+            1000
+          );
+        });
+      });
+    </script>
+    <!-- start-smoth-scrolling -->
+    <link rel="shortcut icon" href="/favicon.ico" />
+  </head>
+  <body>
+    <!-- #region banner -->
+    <div class="banner">
+      <div class="container">
+        <div class="banner-left">
+          <img src="images/logo.png" class="img-responsive" />
+        </div>
+        <div class="banner-right">
+          <div class="header">
+            <h1>ZongziTEK<br />黑板贴</h1>
+          </div>
+          <div class="banner-info">
+            <a href="/jump.html">现在下载</a>
+          </div>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region content -->
+    <div class="card">
+      <div class="card-left col-md-6">
+        <h1>使用 ZongziTEK 黑板贴<br />充分利用每一天</h1>
+        <p>
+          享受抬手即用的小黑板、高效的信息展示、便捷的课程管理和多项实用功能，满足班级的各种需求。
+        </p>
+        <p>
+          <a href="#blackboard">→ 了解小黑板</a><br />
+          <a href="#timetable">→ 了解课程表</a><br />
+          <a href="#infoboard">→ 了解信息看板</a><br />
+          <a href="#launcher">→ 了解启动台</a><br />
+          <a href="#others">→ 了解其它功能</a>
+        </p>
+      </div>
+      <div class="card-right col-md-6">
+        <img
+          src="/images/Sticker-Screenshot-Light.png"
+          class="img-responsive"
+        />
+      </div>
+    </div>
+    <div class="card" id="blackboard">
+      <div class="card-left col-md-6">
+        <h1>小黑板</h1>
+        <p>
+          笔锋计算、多指拖拽、无极调色、自动保存应有尽有，独特的锁定功能防止衣袖的误触破坏版面。是布置作业的利器，更是擦黑板同学的福音。
+        </p>
+      </div>
+      <div class="card-right col-md-6">
+        <img src="/images/blackboard.png" class="img-responsive" />
+      </div>
+    </div>
+    <div class="card" id="timetable">
+      <div class="card-left col-md-6">
+        <h1>课程表</h1>
+        <p>
+          简洁实用，课程以卡片形式呈现，上课时，当前课程卡片右端显示其剩余时间，其它课程卡片右端则显示其开始时间。
+        </p>
+        <p>
+          ZongziTEK
+          黑板贴支持准备上课提醒与下课提醒，并可以为某个课程单独加强下课提醒*。
+        </p>
+        <p>
+          软件能够存储一个临时课表，且允许用户自由选择需要显示的课表，这使得学生能从容应对调休等特殊情况。
+        </p>
+        <p>在课程较多的情况下，课程表能够自动滚动。</p>
+        <p style="font-size: xx-small; opacity: 0.75">
+          * 请谨慎使用“加强下课提醒”功能，以免遇到不必要的麻烦。
+        </p>
+      </div>
+      <div class="card-right col-md-6">
+        <img src="/images/timetable.png" class="img-responsive" />
+      </div>
+    </div>
+    <div class="card" id="infoboard">
+      <div class="card-left col-md-6">
+        <h1>信息看板</h1>
+        <p>
+          在有限的空间内，展示日期、倒数日、当前天气以及下雨预报，配有丝滑流畅的切换动画，想要知道的信息一览无遗。
+        </p>
+      </div>
+      <div class="card-right col-md-6">
+        <img src="/images/infoboard.png" class="img-responsive" />
+      </div>
+    </div>
+    <div class="card" id="launcher">
+      <div class="card-left col-md-6">
+        <h1>启动台</h1>
+        <p>
+          习惯使用“希沃管家助手”？这里有一个类似的工具，并且可以自定义需要显示的应用。
+        </p>
+      </div>
+      <div class="card-right col-md-6">
+        <img src="/images/launcher.png" class="img-responsive" />
+      </div>
+    </div>
+    <div class="card" id="others">
+      <div class="card-left col-md-6">
+        <h1>其它功能</h1>
+        <p>
+          无需担心黑板贴被“希沃管家助手”遮挡，在设置中开启“自动隐藏‘希沃管家助手’”后，黑板贴将会尝试隐藏它。
+        </p>
+        <p>自带段码屏风格的全屏时钟，只需点击右下角时钟图标即可唤出。</p>
+      </div>
+      <div class="card-right col-md-6">
+        <img src="/images/others.png" class="img-responsive" />
+      </div>
+    </div>
+    <!-- #endregion -->
+
+    <!-- #region footer -->
+    <div class="footer">
+      <div class="container">
+        <div class="col-md-6" style="margin-bottom: 2px">
+          <p>ZongziTEK 黑板贴</p>
+        </div>
+        <div class="col-md-6">
+          <p style="text-align: right;">
+            <a href="https://github.com/STBBRD/ZongziTEK-Blackboard-Sticker">GitHub</a>
+            <br />
+            <a href="https://qm.qq.com/q/muQRNj3xQI">加入 QQ 交流群</a>
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- #endregion -->
+    <!-- here stars scrolling icon -->
+    <script type="text/javascript">
+      $(document).ready(function () {
+        /*
 										var defaults = {
 								  			containerID: 'toTop', // fading element id
 											containerHoverID: 'toTopHover', // fading element hover id
@@ -187,12 +175,10 @@
 											easingType: 'linear' 
 								 		};
 										*/
-										
-										$().UItoTop({ easingType: 'easeOutQuart' });
-										
-									});
-	</script>
-<!-- //here ends scrolling icon -->
 
-</body>
+        $().UItoTop({ easingType: "easeOutQuart" });
+      });
+    </script>
+    <!-- //here ends scrolling icon -->
+  </body>
 </html>
