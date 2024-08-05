@@ -122,20 +122,20 @@ ul {
   box-shadow: 0 0 16px #00000040;
   overflow: hidden;
 }
-.card-left{
-	padding: 32px;
+.card-left {
+  padding: 32px;
 }
-.card-left p{
+.card-left p {
   font-size: 18px;
   margin-top: 16px;
 }
-.card-left h1{
-	font-family: 'AliSans-Medium';
-	line-height: 120%;
+.card-left h1 {
+  font-family: "AliSans-Medium";
+  line-height: 120%;
   margin-bottom: 16px;
 }
-.card-right{
-  float:right;
+.card-right {
+  float: right;
   padding: 0;
 }
 /*-- //card --*/
@@ -156,6 +156,9 @@ ul {
 }
 .footer p a:hover {
   color: #0078d4;
+}
+#footer-right {
+  text-align: right;
 }
 /*-- //footer --*/
 
@@ -259,6 +262,11 @@ ul {
   }
   .footer {
     padding: 25px;
+  }
+}
+@media (max-width: 991px) {
+  #footer-right {
+    text-align: left;
   }
 }
 @media (max-width: 768px) {
